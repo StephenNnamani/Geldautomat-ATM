@@ -7,7 +7,8 @@ namespace GeldAutomat_ATM_.App
         static void Main(string[] args)
         {
             Console.WriteLine("start");
-            WillkommeSprachen.Willkomme();
+           // WillkommeSprachen.Willkomme();
+            Authentication.UserInputs();
         }
     }
 }

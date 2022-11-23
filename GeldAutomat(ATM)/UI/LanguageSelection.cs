@@ -11,6 +11,7 @@ namespace GeldAutomat_ATM_.UI
     {
         public static string LangSelect()
         {
+            Utility.ProgramColors();
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             string lines = "------------------------";
             var languages = new Dictionary<int, string>() { { 1, "English" }, { 2, "German" }, { 3, "Igbo" } };
@@ -33,9 +34,34 @@ namespace GeldAutomat_ATM_.UI
                 }
                 
             }
-            return Language;
-            Utility.Util();
+            if (Language == "English")
+            {
+                Utility.TitleBar();
+            }
+            else if (Language == "German")
+            {
+                Utility.TitleBarDeutsch();
+            }
+            else if(Language == "Igbo")
+            {
+                Utility.TitleBarIgbo();
+            }
+            
+
+            if (Language == "English")
+            {
+                Utility.Util();
+            }else if (Language == "German")
+            {
+                Utility.UtilDeutsche();
+            }
+            else
+            {
+                Utility.UtilIgbo();
+            }
             Console.Clear();
+
+            return Language;
             
             
         }

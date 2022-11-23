@@ -1,8 +1,10 @@
-﻿using System;
+﻿using GeldAutomat_ATM_.UI;
+using System;
 
-public class Class1
+public static class Authentication
 {
-	public Class1()
+	public static void UserInputs()
 	{
+		string[] aUserInput = WillkommeSprachen.Willkomme();
 	}
 }
