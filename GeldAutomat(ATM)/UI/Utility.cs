@@ -10,6 +10,7 @@ namespace GeldAutomat_ATM_.UI
     {
         public static void Util()
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("\n\n\t\tPress any to continue");
             Console.ReadLine();
             Console.Write("\t\tloading");
@@ -18,10 +19,11 @@ namespace GeldAutomat_ATM_.UI
                 Console.Write(".");
                 Thread.Sleep(200);
             }
-
+            Console.ResetColor();
         }
         public static void UtilDeutsche()
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("\n\n\t\tDrücken Sie eine beliebige Taste, um fortzufahren");
             Console.ReadLine();
             Console.Write("\t\tloading");
@@ -30,10 +32,12 @@ namespace GeldAutomat_ATM_.UI
                 Console.Write(".");
                 Thread.Sleep(200);
             }
+            Console.ResetColor();
             
         }
         public static void UtilIgbo()
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("\n\n\t\tPịa nke ọ bụla ka ịga n'ihu");
             Console.ReadLine();
             Console.Write("\t\tloading");
@@ -42,7 +46,7 @@ namespace GeldAutomat_ATM_.UI
                 Console.Write(".");
                 Thread.Sleep(200);
             }
-
+            Console.ResetColor();
         }
 
         public static void TitleBar()
@@ -59,13 +63,24 @@ namespace GeldAutomat_ATM_.UI
         }
 
 
-        public static void ProgramColors()
+        public static void ErrorColor(string input)
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
-
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write(input);
             Console.ResetColor();
         }
-
+        public static void SuccessColor(string input)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(input);
+            Console.ResetColor();
+        }
+        public static void ProgressColor(string input)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(input);
+            Console.ResetColor();
+        }
 
     }
 }

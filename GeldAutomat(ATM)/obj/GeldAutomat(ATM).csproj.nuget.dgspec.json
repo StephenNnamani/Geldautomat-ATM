@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\Project 01\\GeldAutomat(ATM)\\GeldAutomat(ATM)\\GeldAutomat(ATM).csproj": {}
+    "C:\\Users\\USER\\source\\repos\\Project 01\\GeldAutomat(ATM)\\Geldautomat\\GeldAutomat(ATM)\\GeldAutomat(ATM).csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\Project 01\\GeldAutomat(ATM)\\GeldAutomat(ATM)\\GeldAutomat(ATM).csproj": {
+    "C:\\Users\\USER\\source\\repos\\Project 01\\GeldAutomat(ATM)\\Geldautomat\\GeldAutomat(ATM)\\GeldAutomat(ATM).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Project 01\\GeldAutomat(ATM)\\GeldAutomat(ATM)\\GeldAutomat(ATM).csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Project 01\\GeldAutomat(ATM)\\Geldautomat\\GeldAutomat(ATM)\\GeldAutomat(ATM).csproj",
         "projectName": "GeldAutomat(ATM)",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\Project 01\\GeldAutomat(ATM)\\GeldAutomat(ATM)\\GeldAutomat(ATM).csproj",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\Project 01\\GeldAutomat(ATM)\\Geldautomat\\GeldAutomat(ATM)\\GeldAutomat(ATM).csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\Project 01\\GeldAutomat(ATM)\\GeldAutomat(ATM)\\obj\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\Project 01\\GeldAutomat(ATM)\\Geldautomat\\GeldAutomat(ATM)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
